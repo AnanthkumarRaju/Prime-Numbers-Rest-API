@@ -39,11 +39,13 @@ The REST call should look like  http://your.host.com/primes/10  and should retur
 Default port 8080
 #### Rest API Details
 URL : http://{host}/primes/{initials}[?mediaType={json|xml}]
+
 Examples:
-http://localhost:8080/primes/10
-http://localhost:8080/primes/10?mediaType=json
-http://localhost:8080/primes/10mediaType=xml
-Http Method : GET
-Accept header: application/xml, application/json
-URL Params :  Optional Query Param: mediaType=json|xml
-Response Codes: Success (200 OK) and Bad Request (400)
+- http://localhost:8080/primes/10
+- http://localhost:8080/primes/10?mediaType=json
+- http://localhost:8080/primes/10mediaType=xml
+
+- Http Method : GET
+- Accept header: application/xml, application/json
+- URL Params :  Optional Query Param: mediaType=json|xml
+- Response Codes: Success (200 OK) and Bad Request (400)
